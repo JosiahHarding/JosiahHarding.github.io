@@ -1,0 +1,4 @@
+# ignore microsoft files
+*.docx
+*.xlsx
+*.pptx
