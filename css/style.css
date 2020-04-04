@@ -1,1 +1,15 @@
 /* My Styles */
+#banner .slide1 {
+		background-image: url("../images/Me.png");
+	}
+
+		#banner .slider .viewer {
+			border-bottom-left-radius: 0;
+			border-bottom-right-radius: 0;
+			border-bottom: 0;
+		}
+
+		#banner .slider .slide img {
+			border-bottom-left-radius: 0;
+			border-bottom-right-radius: 0;
+		}
