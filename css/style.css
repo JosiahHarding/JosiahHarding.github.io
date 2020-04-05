@@ -7,6 +7,18 @@
     top: 10px;
     left: 10px;
     }
+    .contrast{
+        border-color: white !important;
+		color: #ffffff !important;
+			background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    .contrast:hover{
+        border-color: white !important;
+		color: #ffffff !important;
+            background-color: rgba(0, 0, 0, 0.7);
+            }
+
 	#one .slide1 {
 	background-image: url("../images/Slide1.jpg");
 	}
