@@ -35,18 +35,23 @@
 		#banner .button {
 			border-color: white !important;
 			color: #ffffff !important;
-				background-color: rgba(0, 0, 0, 0.4);
+				background-color: rgba(0, 0, 0, 0.3);
 		}
 
 			#banner .button:hover {
-				background-color: rgba(0, 0, 0, 0.7);
+				background-color: rgba(0, 0, 0, 0.6);
+			}
+			#banner .shadow {
+				color: #ffffff !important;
+				text-shadow: 1px 1px #000000;
+				background-color: rgba(0, 0, 0, 0.3);
 			}
 
 
 
   @keyframes tickerv {
     0% {margin-top: 0;}
-    100% {margin-top: -1100px;}
+    100% {margin-top: -1600px;}
   }
   .tickerv-wrap {
     box-sizing: content-box;
@@ -64,7 +69,7 @@
     margin:0;
     list-style-type: none;
     animation-name: tickerv;
-    animation-duration:20s;
+    animation-duration:25s;
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier(1, 1, 1, 1);
   }

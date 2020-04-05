@@ -1309,8 +1309,8 @@
 
     /* Josiah edit: This makes the bottom part of our slider view cut off, so I will be taking it out */
 		#one .slider .viewer {
-			border-bottom-left-radius: 0;
-			border-bottom-right-radius: 0;
+			border-bottom-left-radius: 10;
+			border-bottom-right-radius: 10;
 			/* border-bottom: 0; */
 		}
 
