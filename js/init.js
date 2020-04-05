@@ -63,6 +63,9 @@
 			$body.addClass('is-loading');
 			
 			$window.on('load', function() {
+			    //Josiah edit: adding this to get ride of the nasty jump before the styles apply for responsive design
+			    $body.removeClass('hide');
+			    //end Josiah edit
 				window.setTimeout(function() {
 					$body.removeClass('is-loading');
 				}, 500);

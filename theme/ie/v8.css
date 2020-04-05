@@ -68,8 +68,11 @@
 
 /* Banner */
 
+    /* Josiah edit: replaced background image to one of my own on the ie css only. I couldn't be bothered to do
+       my own ie override */
 	#banner {
-		background-image: url("../../images/banner.jpg");
+		/*background-image: url("../../images/banner.jpg");*/
+		background-image: url("../../images/Banner-books.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
 		-ms-behavior: url("theme/ie/backgroundsize.min.htc");

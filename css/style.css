@@ -1,15 +1,61 @@
 /* My Styles */
-#banner .slide1 {
-		background-image: url("../images/Me.png");
+    .hide{
+    display: none;
+    }
+    #one .slider .slide .text {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    }
+	#one .slide1 {
+	background-image: url("../images/Slide1.jpg");
+	}
+	#one .slide2 {
+	background-image: url("../images/Slide2.jpg");
+	}
+	#one .slide3 {
+	background-image: url("../images/Slide3.jpg");
+	}
+	#banner {
+		background-image: url("../theme/images/overlay.png"), url("../images/Banner-books.jpg");
 	}
 
-		#banner .slider .viewer {
-			border-bottom-left-radius: 0;
-			border-bottom-right-radius: 0;
-			border-bottom: 0;
+		#banner .button {
+			border-color: white !important;
+			color: #ffffff !important;
+				background-color: rgba(0, 0, 0, 0.4);
 		}
 
-		#banner .slider .slide img {
-			border-bottom-left-radius: 0;
-			border-bottom-right-radius: 0;
-		}
+			#banner .button:hover {
+				background-color: rgba(0, 0, 0, 0.7);
+			}
+
+
+
+  @keyframes tickerv {
+    0% {margin-top: 0;}
+    100% {margin-top: -1100px;}
+  }
+  .tickerv-wrap {
+    box-sizing: content-box;
+    overflow: hidden;
+    padding: 10px;
+    height: 300px;
+  }
+
+  .tickerv-space {
+    height: 310px;
+  }
+
+  .credits {
+    padding:0;
+    margin:0;
+    list-style-type: none;
+    animation-name: tickerv;
+    animation-duration:20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(1, 1, 1, 1);
+  }
+  .credits:hover {
+    animation-play-state: paused;
+  }
