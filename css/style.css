@@ -20,13 +20,13 @@
             }
 
 	#one .slide1 {
-	background-image: url("../images/Slide1.jpg");
+	background-image: url("../images/index-slide1.jpg");
 	}
 	#one .slide2 {
-	background-image: url("../images/Slide2.jpg");
+	background-image: url("../images/index-slide2.jpg");
 	}
 	#one .slide3 {
-	background-image: url("../images/Slide3.jpg");
+	background-image: url("../images/index-slide3.jpg");
 	}
 	#banner {
 		background-image: url("../theme/images/overlay.png"), url("../images/Banner-books.jpg");
