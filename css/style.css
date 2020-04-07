@@ -21,12 +21,18 @@
 
 	#one .slide1 {
 	background-image: url("../images/index-slide1.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
 	}
 	#one .slide2 {
 	background-image: url("../images/index-slide2.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
 	}
 	#one .slide3 {
 	background-image: url("../images/index-slide3.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
 	}
 	#banner {
 		background-image: url("../theme/images/overlay.png"), url("../images/Banner-books.jpg");
